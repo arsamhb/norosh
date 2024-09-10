@@ -32,7 +32,7 @@ export default function RootLayout({
         <main className="grow grid place-items-center">
           {children}
         </main>
-        <TabController tabsList={tabs} />
+        {/* <TabController tabsList={tabs} /> */}
         {/* <Footer /> */}
       </body>
     </html>
